@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(218, 28%, 13%);
+   font-family: 'open sans';
+}
+
+.header{
+    margin-top: 4% ;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+    max-height: 80px;
+    overflow: hidden;
+}
+.header nav .logo img{
+    width: 60%;
+    cursor: pointer;
+}
+.header nav .nav-links ul li{
+    display: inline-block;
+    margin: 0 12px ;
+    list-style-type: none;
+}
+.header nav .nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'raleway';
+    font-weight: 400;
+    font-size: 14px;
+}
+.header nav .nav-links ul li a:hover{
+    text-decoration: underline;
+}
+.container{
+    padding: 0 7%;
+}
+.hero-section{
+    margin: 20% 0;
+}
+.hero-section img{
+    width: 100%;
+}
+.text-area{
+    margin: 20px auto;
+    text-align: center;
+    /* width: 50%; */
+}
+
+
+.text-area h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+}
+.text-area p{
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.btn {
+    display: inline-block;
+    background-color: hsl(198, 60%, 50%);
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 38px;
+    margin: 30px 30%;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+}
+.btn:hover{
+    background-color:  hsl(176, 68%, 64%);
+}
+.features{
+    text-align: center;
+    display: block;
+}
+ .feat img{
+    margin-top: 20%;
+}
+h4{
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+}
+
+.about{
+    margin-top: 20%;
+}
+.about img{
+    width: 100%;
+}
+.about .about-text{
+    text-align: start;
+    margin-top: 50px;
+}
+.about .about-text p{
+     color: #fff;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.about .about-text  .fylo-works p:hover{
+    margin-top: 30px;
+    color:hsl(198, 60%, 50%);
+    border-bottom: 2px solid hsl(198, 60%, 50%);
+    width: 40%;   
+    line-height: 35px;
+}
+.testimonals{
+    margin-top: 20%;
+    margin-bottom: 30px;
+}
+.testimonals .quotes{
+    width: 30px;
+}
+.testimonals .testimonals-card{
+    background-color: hsl(219, 30%, 18%);
+    padding: 15% 15% 30px 30px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.testimonals .testimonals-card  img{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.testimonals .testimonals-card p{
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    
+}
+.testimonals .testimonals-card .testimonals-content{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.testimonals .testimonals-card .testimonals-content h4{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.testimonals .testimonals-card .testimonals-content h4 span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.cta{
+    background-color: hsl(217, 28%, 15%);
+    padding: 15% 30px 15% 30px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    /* margin-top: 20%; */
+    text-align: center;
+    box-shadow: 0px 15px 20px rgb(0 0 0 / 30%);
+} 
+.cta h4{
+    font-size: 24px;
+    padding-bottom: 7%;
+}
+.cta p{
+    font-weight: 300;
+    line-height: 27px;
+  
+}
+input{
+    padding: 22px 31% 27px 35px;
+    margin-top: 30px ;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+input[ type="submit"]{
+    padding: 20px 20% 20px 20%;
+    margin-top: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: hsl(176, 68%, 64%);
+    transition: background 0.5s;
+}
+input [type="submit"]:hover{
+    background-color:  hsl(176, 68%, 64%);
+}
+
+footer{
+    margin-top: 20%;
+    padding: 30px 20px;
+    background-color: hsl(217, 28%, 15%);
+
+}
+footer .info{
+    display: flex;
+    padding-top: 30px;
+    text-align: start;
+    /* justify-content: space-between; */
+}
+footer .info-1 p{
+    color: #fff;
+    display: block;
+    align-items: center;
+    margin-top: 30px;
+}
+footer .info-1 ion-icon{
+     color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+     padding-right: 10px;
+}
+footer .info ion-icon{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer .info p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 10px;
+    line-height: 25px;
+}
+footer .links a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+}
+footer .links{
+    margin-top: 50px;
+}
+footer .social ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-right: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+footer .social{
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 1440px){
+
+.header nav .nav-links ul li a{
+    font-size: 18px;
+}
+
+.header nav .logo img{
+    width: 100%;
+    cursor: pointer;
+}
+.hero-section{
+    margin: 9% auto;
+    text-align: center;width: 72%;
+}
+
+.hero-section img{
+    width: 100%;
+}
+
+.btn {
+    padding: 12px 11% 12px 11%;
+text-align: center;font-size: 28px;
+}
+
+.text-area{
+    margin: 20px auto;
+    text-align: center;
+    /* width: 50%; */
+}
+.text-area h2{
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.features  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(218px, 1fr));
+    /* grid-gap: 387px; */
+    column-gap: 354px;
+}
+
+ .feat img{
+    margin-top: 20%;
+}
+h4{
+    font-weight: 500;
+    font-size: 19px;
+    color: #fff;
+}
+
+.feat .text-area p{
+    color: #fff;
+    /* margin-top: 30px; */
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.about{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .about-text{
+    text-align: start;
+    margin-left: 70px;
+    width: 50%;
+}
+.about .about-text h4{
+    text-align: start;
+    font-size: 2em;
+    width: 62%;
+}
+
+.testimonals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.testimonals .testimonals-card{
+    background-color: hsl(219, 30%, 18%);
+    padding: 4% 2%;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+      box-shadow: 0px 15px 20px rgb(0 0 0 / 30%);
+}
+.testimonals .quotes{
+    position: absolute;
+    z-index: -99;
+    top: -35px;
+    width: 50px;
+}
+
+.cta{
+    background-color: hsl(217, 28%, 15%);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 15px 20px rgb(0 0 0 / 30%);
+    width: 50%;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 30px;
+} 
+.cta h4{
+    font-size: 24px;
+    padding-bottom: 7%;
+}
+.cta p{
+    font-weight: 300;
+    line-height: 27px;
+}
+
+footer{
+    margin-top: 20%;
+    padding: 34px 58px;
+    background-color: hsl(217, 28%, 15%);
+    position: relative;
+    padding-top: 20%;
+}
+
+
+footer .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[ type="submit"]{
+    padding: 20px 5% 20px 5%;
+    margin-left: 20px;
+}
+
+}
